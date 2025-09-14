@@ -25,3 +25,26 @@ while True:
 
      # When everything done, release the capture
 cap.release()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+output_folder="facial_photos"
+
+counter=1
+# Create directory if it doesn't exist
+os.makedirs(folder_path, exist_ok=True)
+image_filename = f'facial_photo{counter}.jpg'
+image_path = os.path.join(folder_path, image_filename)
