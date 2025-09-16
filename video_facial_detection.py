@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 
 
+
 class DetectionConditions:
     def __init__(self):
         self.face_detected = False
